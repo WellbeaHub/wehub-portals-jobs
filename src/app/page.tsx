@@ -1,5 +1,5 @@
 import React from "react";
-import PortalList from "@components/PortalList";
+import { PortalList } from "@components/PortalList";
 import SearchBar from "@components/SearchBar";
 import { prismaClient, supabaseClient } from "./lib/providerClient";
 

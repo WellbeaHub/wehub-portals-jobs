@@ -6,10 +6,8 @@ interface PortalItemProps {
   portal: Portal;
 }
 
-const PortalItem: React.FC<PortalItemProps> = ({ portal }) => (
+export const PortalItem: React.FC<PortalItemProps> = ({ portal }) => (
   <li>
     <a href={portal.url}>{portal.url}</a>
   </li>
 );
-
-export default PortalItem;
