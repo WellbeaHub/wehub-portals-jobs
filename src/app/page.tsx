@@ -8,6 +8,8 @@ export interface Portal {
   url: string;
 }
 
+//export const revalidate = 0;
+
 const Home = async () => {
   const portals = await prismaClient.portalJob.findMany();
 
